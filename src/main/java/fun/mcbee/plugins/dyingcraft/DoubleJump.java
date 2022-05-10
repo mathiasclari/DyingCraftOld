@@ -16,7 +16,7 @@ import java.util.Map;
 public class DoubleJump implements Listener {
 
 
-    @SuppressWarnings("deprecation")
+
     @EventHandler
     public void onPlayerFly(PlayerToggleFlightEvent e) {
         Player p = e.getPlayer();
@@ -29,6 +29,7 @@ public class DoubleJump implements Listener {
                 p.setFlying(false);
                 p.setVelocity(p.getLocation().getDirection().multiply(0.8D).setY(0.3D));
                 p.playEffect(p.getLocation(), Effect.ELECTRIC_SPARK, 15);
+                p.playEffect(p.getLocation(), Effect.ENDEREYE_LAUNCH, 15);
             }
         }
 

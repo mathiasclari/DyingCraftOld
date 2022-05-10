@@ -1,0 +1,29 @@
+# Should the plugin change the value of the players  bar
+# to represent the player's stamina?
+#
+# Not recommended if your server uses XP/hunger normally (for enchanting, eating)
+# or the XP/hunger bar is used to represent other values
+# (such as mana for a magic plugin, or bullets for a gun plugin)
+#
+# Values: 'XP', 'HUNGER' or 'NONE'
+display-bar: 'XP'
+
+# Represents the max stamina a player can have
+# Different values can be used for different ranks
+# Give ranks the permission 'stamina.rank.KEY' for different stamina values
+max-stamina-default: 20.0
+max-stamina-rank-values:
+  vip: 20.0 # 'stamina.rank.vip'
+
+# The amount of stamina the player regains per second
+recovery-rate: 0.1
+
+# Tire rate (the amount of stamina lost per 1 tick = 50ms)
+tire-rate: 0.2
+
+# If stamina is less than this value, player will be slowed
+slowness-threshold: 3.0
+
+# Deplete stamina on player jump
+player-jump-depletion: true
+jump-depletion-value: 1.0
