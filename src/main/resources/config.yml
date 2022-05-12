@@ -3,10 +3,8 @@ guns:
     display_name: Glock 17
     max_ammo: 32
     reload_time: 1200
-    # auto / burst
-    #fire_rate: auto #to morš narest to nevem kaj nej bi ble opcije
     bullet_per_shot: 1
-    damage: 10
+    damage: 3
     accuracy: 0.9
     range: 100
     material:
@@ -16,5 +14,16 @@ guns:
     reloading_sound: BAT_DEATH
     empty_sound: #tle dodaj nek sound
   '2':
-    display_name: gun
-    max_ammo: 4
+  display_name: Desert Eagle
+  max_ammo: 7
+  reload_time: 1200
+  bullet_per_shot: 1
+  damage: 10
+  accuracy: 1
+  range: 150
+  material:
+  recoil: 2.0
+  ammo_type: Pistol_Ammo
+  shooting_sound: #tle dodaj nek sound
+  reloading_sound: BAT_DEATH
+  empty_sound: #tle dodaj nek sound
