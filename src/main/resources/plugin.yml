@@ -3,3 +3,5 @@ version: '${project.version}'
 main: fun.mcbee.plugins.dyingcraft.DyingCraft
 api-version: 1.18
 authors: [ PxLib ]
+commands:
+  gshop:

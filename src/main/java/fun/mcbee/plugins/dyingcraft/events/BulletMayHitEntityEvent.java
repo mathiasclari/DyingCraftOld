@@ -34,6 +34,6 @@ public class BulletMayHitEntityEvent extends Event {
     }
 
     public boolean hasHit() {
-        return this.hasHit();
+        return this.didHit;
     }
 }

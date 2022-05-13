@@ -11,7 +11,7 @@ import java.util.List;
 public enum AmmoType {
 
     Pistol_Ammo("Pistol_Ammo", Material.FIREWORK_STAR),
-    Assault_Rifle_Ammo("Assault_Rifle_Ammo", Material.NETHER_BRICK),
+    Rifle_Ammo("Assault_Rifle_Ammo", Material.NETHER_BRICK),
     Shotgun_Ammo("Shotgun_Ammo", Material.NETHER_WART),
     Sniper_Rifle_Ammo("Sniper_Rifle_Ammo", Material.INK_SAC),
     LMG_Ammo("LMG_Ammo", Material.SLIME_BALL),

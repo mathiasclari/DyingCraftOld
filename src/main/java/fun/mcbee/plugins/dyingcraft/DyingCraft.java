@@ -4,6 +4,7 @@ package fun.mcbee.plugins.dyingcraft;
 import fun.mcbee.plugins.dyingcraft.GunSystem.ShootingData;
 import fun.mcbee.plugins.dyingcraft.Guns.AmmoType;
 import fun.mcbee.plugins.dyingcraft.Guns.GunWeapon;
+import fun.mcbee.plugins.dyingcraft.ShopGUI.GunShopGUI;
 import fun.mcbee.plugins.dyingcraft.listeners.MovementListener;
 import fun.mcbee.plugins.dyingcraft.listeners.ShootingListener;
 import org.bukkit.Material;
@@ -27,6 +28,9 @@ public final class DyingCraft extends JavaPlugin {
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(new MovementListener(), this);
         getServer().getPluginManager().registerEvents(new ShootingListener(), this);
+        getServer().getPluginManager().registerEvents(new GunShopGUI(), this);
+
+        getCommand("gshop").setExecutor(new GunShopGUI());
 
         LoadConfig();
     }
