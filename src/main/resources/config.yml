@@ -1,5 +1,5 @@
 guns:
-  Glock17:
+  '1': #id
     display_name: Glock 17
     max_ammo: 32
     reload_time: 1200
@@ -10,9 +10,9 @@ guns:
     material:
     recoil: 1.0
     ammo_type: Pistol_Ammo
-    shooting_sound: #tle dodaj nek sound
-    reloading_sound: BAT_DEATH
-    empty_sound: #tle dodaj nek sound
+    shooting_sound: BAT_HURT
+    reloading_sound: BAT_TAKEOFF
+    empty_sound: BAT_DEATH
   '2':
   display_name: Desert Eagle
   max_ammo: 7
@@ -24,6 +24,6 @@ guns:
   material:
   recoil: 2.0
   ammo_type: Pistol_Ammo
-  shooting_sound: #tle dodaj nek sound
-  reloading_sound: BAT_DEATH
-  empty_sound: #tle dodaj nek sound
+  shooting_sound: #need to be added
+  reloading_sound: #need to be added
+  empty_sound: BAT_DEATH
