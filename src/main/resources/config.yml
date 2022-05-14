@@ -118,7 +118,7 @@ guns:
     max_ammo: 30
     reload_time: 1200
     bullet_per_shot: 1
-    damage: 3.6
+    damage: 3.4
     accuracy: 1
     range: 78
     material: GRAY_DYE
