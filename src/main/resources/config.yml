@@ -192,7 +192,7 @@ guns:
     accuracy: 0.9
     range: 150
     material: BROWN_DYE
-    recoil: 0.9
+    recoil: 0.5
     ammo_type: Rifle_Ammo
     shooting_sound: ENTITY_BAT_HURT
     reloading_sound: UI_BUTTON_CLICK
